@@ -17,7 +17,7 @@ The original tool supports five code smells, namely **Feature Envy**, **Type/Sta
 ## Installation
 
 1. Clone this repository
-2. Build IntelliJDeodorant.jar using ```./gradlew jar``` 
+2. Build IntelliJDeodorant.zip using ```./gradlew buildPlugin``` (it will create zip archive under ```build/distributions```)  
 3. Go to ```Settings-> Plugins-> Install plugin from disk```
 4. Locate and select IntelliJDeodorant.jar
 5. Restart IntelliJ IDEA
